@@ -1,31 +1,22 @@
-.naranja {
-    background-color: #FFA335;
+.sticky-top-bar {
+    width: 100%;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
 }
 
-.verde {
-    background-color: #DAEC00;
+.global-nav {
+    background: rgba(0, 0, 0, .8);
+    padding: 12px;
 }
 
-.azul {
-    background-color: #4A89D0;
-}
-
-.gris {
-    background-color: #E3E3E3;
-}
-
-.box {
-    margin: 0.4em 0;
-}
-
-.box--small {
-    height: 80px;
-}
-
-.box--medium {
-    height: 150px;
-}
-
-.box--large {
-    height: 400px;
+.hamburger {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    left: 10px;
+    color: #abf000;
 }
