@@ -51,4 +51,17 @@
 
 .box--large {
     height: 250px;
+    
+}
+
+.orbitInicio
+{
+	height:400px!important;
+	
+}
+
+.centrarDiv
+{
+	margin-left:auto;
+	margin-right:auto;
 }
