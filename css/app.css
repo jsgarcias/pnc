@@ -22,7 +22,7 @@
 }
 
 .off-canvas-left {
-    background-color: #2c3840;
+    background-color: #000000;
     max-height: 100%;
     padding: 15px 0;
 }
@@ -126,7 +126,7 @@
 
 .centrarDiv
 {
-	 margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     display: block;
 }
@@ -156,5 +156,21 @@
 	
 	border-bottom: 2px solid black;
 	padding-bottom:10px;
+}
+
+.BackgroundGeneral {
+    background: url('../img/FondoGeneral.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.HeaderTabla {
+    background-color: rgba(0,0,0,.8);
+    color: #ABF000;
+}
+
+.BotonVerde
+{
+	background-color: #ABF000!important;
+	color: #000000;
 }
 
