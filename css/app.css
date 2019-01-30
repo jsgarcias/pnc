@@ -159,14 +159,14 @@
 }
 
 [class*="BackgroundGeneral"] {
-  background: url('../img/prueba.png') no-repeat center center fixed;
+  background: url('../img/FondoAdaptable.png') no-repeat center center fixed;
   background-size: cover;
 }
 
 @media only screen and (min-width: 768px) {
 
 	.BackgroundGeneral {
-    		background: url('../img/FondoGeneral.jpg') no-repeat center center fixed;
+    		background: url('../img/FondoGeneral.png') no-repeat center center fixed;
     		background-size: cover;
 	}
 }
