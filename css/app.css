@@ -154,13 +154,14 @@
 .divBorde
 {
 	
-	border-bottom: 5px dotted black;
+	border-bottom: 5px dotted rgba(95,95,94,1);
 	padding-bottom:10px;
 }
 
 [class*="BackgroundGeneral"] {
   background: url('../img/FondoAdaptable.png') no-repeat center center fixed;
-  background-size: cover;
+  background-size: contain;
+  height: 500px;
 }
 
 @media print, screen and (min-width: 40em) {
