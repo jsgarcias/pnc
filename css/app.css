@@ -99,6 +99,7 @@
 
 .box {
     margin: 0.4em 0;
+  
 }
 
 .box--small {
@@ -121,6 +122,7 @@
 .orbitInicio
 {
 	height:400px!important;
+width:100%!important;
 	
 }
 
@@ -184,18 +186,42 @@
 }
 
 .backG1 {
-    background: url('../img/lupa.png') no-repeat center ;
-    height: 200px;
+    background: url('../img/lupa.png') no-repeat center;
+    height: 150px;
+    margin-bottom:10px;
+    transition: all 0.3s ease;
+    color: #E3E3E3;
+
 }
+
+
 
 .backG2 {
     background: url('../img/lupa.png') no-repeat center;
-    height: 200px;
+    height: 150px;
+    margin-bottom:10px;
+    transition: all 0.3s ease;
+    color: #E3E3E3;
+
 }
 
 .backG3 {
     background: url('../img/lupa.png') no-repeat center;
-    height: 200px;
+    height: 150px;
+    margin-bottom:10px;
+    transition: all 0.3s ease;
+    color: #E3E3E3;
+
+}
+
+.cambiar:hover
+{
+  background:#ABF000;
+  color:#000000;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  box-shadow: inset 0 0 0 3px #555953;
 }
 
 
