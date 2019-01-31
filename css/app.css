@@ -58,7 +58,7 @@
 }
 
 .footerc {
-    background-color: #2c3840;
+    background-color: #000000;
 }
 
 .redes-l {
@@ -159,7 +159,7 @@
 }
 
 [class*="BackgroundGeneral"] {
-  background: url('../img/FondoAdaptable.png') no-repeat center center fixed;
+  background: url('../img/FondoMobil.png') no-repeat center center fixed;
   background-size: contain;
   
 }
