@@ -149,6 +149,8 @@
 
 }
 
+
+
 .divBorde
 {
 	
@@ -180,4 +182,20 @@
 	background-color: #ABF000!important;
 	color: #000000;
 }
+
+.backG1 {
+    background: url('../img/lupa.png') no-repeat center ;
+    height: 200px;
+}
+
+.backG2 {
+    background: url('../img/lupa.png') no-repeat center;
+    height: 200px;
+}
+
+.backG3 {
+    background: url('../img/lupa.png') no-repeat center;
+    height: 200px;
+}
+
 
