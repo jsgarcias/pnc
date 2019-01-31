@@ -161,13 +161,13 @@
 [class*="BackgroundGeneral"] {
   background: url('../img/FondoAdaptable.png') no-repeat center center fixed;
   background-size: contain;
-  height: 500px;
+  
 }
 
 @media print, screen and (min-width: 40em) {
 
 	.BackgroundGeneral {
-    		background: url('../img/FondoGeneral.png') no-repeat center center fixed;
+    		background: url('../img/FondoGeneral.jpg') no-repeat center center fixed;
     		background-size: cover;
 	}
 }
