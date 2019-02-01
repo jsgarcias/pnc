@@ -94,7 +94,7 @@
 }
 
 .gris {
-    background-color: #E3E3E3;
+    background-color: rgba(211, 211, 211, .5);
 }
 
 .box {
@@ -344,6 +344,10 @@ filter: blur(10px);
   filter: drop-shadow(10px 8px 10px gray);
     -moz-filter: drop-shadow(10px 8px 10px gray);
 
+}
+
+h1 {
+    font-family:Cooper;
 }
 
 
