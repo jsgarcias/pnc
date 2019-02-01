@@ -143,12 +143,12 @@ width:100%!important;
 [class*="imagenTitulo"] {
 
  	background:url('../img/contactanosMobil.png') no-repeat;
-    	height: 250px;
-    	color: #FFFFFF;
+    	height: 125px;
+    	color: #00000;
     	margin-bottom:100px;
-    	text-align: right;
-    	padding-right:250px;
-    	padding-top:50px;
+    	text-align: center;
+    	
+    	padding-top:20px;
     	background-attachment: fixed;
 
    	background-position: center top;
@@ -160,12 +160,12 @@ width:100%!important;
 	.imagenTitulo{
 
    	background:url('../img/contactanos2.png') no-repeat;
-    	height: 250px;
-    	color: #FFFFFF;
+    	height: 125px;
+    	color: #00000;
     	margin-bottom:100px;
-    	text-align: right;
-    	padding-right:250px;
-    	padding-top:50px;
+    	text-align: center;
+    
+    	padding-top:20px;
     	background-attachment: fixed;
 
    	background-position: center top;
