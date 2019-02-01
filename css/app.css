@@ -131,6 +131,14 @@ width:100%!important;
     text-align:center;
 }
 
+.imagenAdaptable
+{
+	border:none;
+padding:0;
+margin:0;
+width:100%;
+}
+
 
 .tituloPantalla
 {
