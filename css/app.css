@@ -289,6 +289,7 @@ filter: blur(10px);
   width: 90%;
   text-align: center;
   list-style-type: none;
+
 }
 
 .pricing-table li {
@@ -319,6 +320,12 @@ filter: blur(10px);
 
 .pricing-table :last-child {
   margin-bottom: 0;
+}
+
+.pricing-table .picture {
+  background-color: #fefefe;
+  font-size: 2rem;
+  border-bottom: 0;
 }
 
 
