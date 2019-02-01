@@ -234,7 +234,7 @@ width:100%;
 }
 
 .backG1 {
-    background: url('../img/lupa.png') no-repeat center;
+    background: url('../img/iconHome1.png') no-repeat center;
     height: 150px;
     margin-bottom:10px;
     transition: all 0.3s ease;
@@ -245,7 +245,7 @@ width:100%;
 
 
 .backG2 {
-    background: url('../img/lupa.png') no-repeat center;
+    background: url('../img/iconoHome2.png') no-repeat center;
     height: 150px;
     margin-bottom:10px;
     transition: all 0.3s ease;
@@ -254,7 +254,7 @@ width:100%;
 }
 
 .backG3 {
-    background: url('../img/lupa.png') no-repeat center;
+    background: url('../img/iconoHome3.png') no-repeat center;
     height: 150px;
     margin-bottom:10px;
     transition: all 0.3s ease;
@@ -286,7 +286,7 @@ filter: blur(10px);
 .pricing-table {
   background-color: #fefefe;
   border: solid 1px #cacaca;
-  width: 100%;
+  width: 90%;
   text-align: center;
   list-style-type: none;
 }
