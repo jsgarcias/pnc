@@ -112,9 +112,10 @@
 
 .box--large {
     height: 250px;
-    margin-bottom:100px;
+    margin-bottom:75px;
     text-align: center;
     padding-top:50px;
+    border-bottom: 8px dotted black; 
 
     
 }
