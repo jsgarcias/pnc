@@ -142,7 +142,7 @@ width:100%!important;
 
 [class*="imagenTitulo"] {
 
- 	background:url('../img/contactanos1.png') no-repeat;
+ 	background:url('../img/contactanosMobil.png') no-repeat;
     	height: 250px;
     	color: #FFFFFF;
     	margin-bottom:100px;
@@ -159,7 +159,7 @@ width:100%!important;
 @media print, screen and (min-width: 40em) {
 	.imagenTitulo{
 
-   	background:url('../img/contactanos1.png') no-repeat;
+   	background:url('../img/contactanos2.png') no-repeat;
     	height: 250px;
     	color: #FFFFFF;
     	margin-bottom:100px;
