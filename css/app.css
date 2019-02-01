@@ -142,7 +142,7 @@ width:100%!important;
 
 [class*="imagenTitulo"] {
 
- 	background:url('../img/contactanosMobil.png') no-repeat;
+ 	background:url('../img/tituloMobil.png') no-repeat;
     	height: 125px;
     	color: #00000;
     	margin-bottom:100px;
@@ -154,12 +154,30 @@ width:100%!important;
    	background-position: center top;
 }
 
-
-
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 768px) {
 	.imagenTitulo{
 
-   	background:url('../img/contactanos2.png') no-repeat;
+   	background:url('../img/tituloLaptop.png') no-repeat;
+    	height: 125px;
+    	color: #00000;
+    	margin-bottom:100px;
+    	text-align: right;
+    
+    	padding-top:25px;
+    	background-attachment: fixed;
+
+   	background-position: center top;
+
+
+	}
+}
+
+
+
+@media print, screen and (min-width: 1200px) {
+	.imagenTitulo{
+
+   	background:url('../img/tituloMonitor.png') no-repeat;
     	height: 125px;
     	color: #00000;
     	margin-bottom:100px;
