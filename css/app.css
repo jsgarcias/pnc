@@ -328,6 +328,17 @@ filter: blur(10px);
   border-bottom: 0;
 }
 
+.productoHover:hover
+{
+   
+filter: opacity(30%);
+-webkit-filter: opacity(30%);
+    -moz-filter: opacity(30%);
+ 
+}
+
+
+
 
 
 
