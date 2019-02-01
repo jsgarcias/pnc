@@ -268,4 +268,15 @@ justify-content: center;
 align-items: center;
 }
 
+.filtroSlider
+{
+filter: blur(10px);
+-webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+}
+
+
+
+
+
 
