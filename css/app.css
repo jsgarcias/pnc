@@ -337,17 +337,13 @@ filter: blur(10px);
 .productoHover:hover
 {
      -webkit-transform: scale(1.01);
-  -ms-transform: scale(1.01);
-  transform: scale(1.01);
+     -ms-transform: scale(1.01);
+     transform: scale(1.01);
 
-  -webkit-filter: drop-shadow(10px 8px 10px gray);/* Safari */
-  filter: drop-shadow(10px 8px 10px gray);
+     -webkit-filter: drop-shadow(10px 8px 10px gray);/* Safari */
+    filter: drop-shadow(10px 8px 10px gray);
     -moz-filter: drop-shadow(10px 8px 10px gray);
 
-}
-
-h1 {
-    font-family:Cooper;
 }
 
 .etiquetaPagina
@@ -371,6 +367,10 @@ h1 {
 	padding-bottom: 50px;
 }
 
+.imgProducto
+{
+   height:150px!important;
+}
 
 
 
