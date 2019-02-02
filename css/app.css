@@ -350,6 +350,29 @@ h1 {
     font-family:Cooper;
 }
 
+.etiquetaPagina
+{
+    background-color:gray;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border-radius: .125rem;
+    box-sizing:border-box;
+}
+
+.controlTamanioPag
+{
+	margin-bottom: 50px;
+        border-bottom: 5px solid black; 
+}
+
+.filaPagineo
+{	
+	color:gray!important;
+	padding-top:20px;
+	padding-bottom: 50px;
+}
+
+
+
 
 
 
