@@ -108,8 +108,14 @@
 
 .box--medium {
     height: 175px;
-    margin-bottom:25px;
+   
     
+}
+
+.box-mediumNosotros
+{
+    height: 175px;
+    margin-bottom:25px;
 }
 
 .box--large {
