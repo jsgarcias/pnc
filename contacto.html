@@ -9,6 +9,41 @@
     <link rel="stylesheet" href="css/app.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/lupa.png">
+
+    <script type="text/javascript">
+
+        function Contactanos() {
+
+            var Nombre = "Jaime";
+            var Apellido = "Garcia";
+            var CorreoElectronico = "jgarcia@me.com";
+            var NumeroTelefono = "51121617";
+            var Fecha = "06022019 08:00";
+
+            var param = { "Nombre": Nombre, "Apellido": Apellido, "CorreoElectronico": CorreoElectronico, "NumeroTelefono": NumeroTelefono, "Fecha": Fecha }
+            var PageUrl = "https://api.peeknclean.com/api/Cita";
+            $.ajax({
+                type: 'POST',
+                url: PageUrl,
+                data: JSON.stringify(param),
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+
+                success: function (data) {
+
+                    //codigo para enviar contactanos
+                },
+
+                error: function (data) {
+
+                }
+
+            });
+        }
+
+
+    </script>
+
 </head>
 <body class="BackgroundGeneral">
     <div class="off-canvas-wrapper">
@@ -96,7 +131,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="small-12 medium-12 large-12 columns">
-                                            <button class="button expanded BotonVerde"><strong>ENVIAR</strong></button>
+                                            <button class="button expanded BotonVerde" id="btnenviar" onclick="Contactanos()"><strong>ENVIAR</strong></button>
                                         </div>
                                     </div>
                                 </fieldset>
